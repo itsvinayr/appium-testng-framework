@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.mobile.listeners.Listeners"/>
+        <listener class-name="org.mobile.extentReports.ExtentReporterNG"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="AppiumTestNGFramework">
+        <classes>
+            <class name="org.mobile.tests.DragAndDrop"/>
+        </classes>
+    </test>
+</suite>
