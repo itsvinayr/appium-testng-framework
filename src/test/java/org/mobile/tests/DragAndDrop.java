@@ -53,6 +53,8 @@ public class DragAndDrop extends Base {
         TouchAction<?> touchAction = new TouchAction<>(androidDriver);
         touchAction.longPress(new LongPressOptions().withElement(new ElementOption().withElement(src))).
                 moveTo(new ElementOption().withElement(dest1)).release().perform();
+
+        androidDriver.quit();
     }
 
     @AfterMethod

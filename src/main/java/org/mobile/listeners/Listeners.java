@@ -1,6 +1,6 @@
 package org.mobile.listeners;
 
-import org.mobile.utilities.Utility;
+import org.mobile.base.Base;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
@@ -12,7 +12,7 @@ public class Listeners implements ITestListener {
     public void onTestFailure(ITestResult result) {
         String name = result.getName();
         try {
-            Utility.getScreenshot(name);
+            Base.getScreenshot(name);
         } catch (IOException e) {
             e.printStackTrace();
         }
