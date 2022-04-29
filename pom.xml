@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.mobile</groupId>
-    <artifactId>AppiumTestNGFramework</artifactId>
+    <artifactId>appium-testng-framework</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>AppiumTestNGFramework</name>
+    <name>appium-testng-framework</name>
     <url>https://www.github.com/itsvinayr</url>
 
     <properties>
